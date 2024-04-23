@@ -1,0 +1,53 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+#heading {
+    font-size: 2em; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+#font {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+
+#dropdownMenu {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #000000;
+    border: none;
+   
+}
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: auto;
+}
+
+#dropdownMenu:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color: #000000;" onload="loadContent('Home')">
+    <div class="header">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo" id="logo">
+        </a>
+        <h1 id="heading">Explore Our Space</h1>
+    </div>
+    <div class="navbar">
+        <select id="dropdownMenu" onchange="window.location.href=this.value+'.html'">
+            <option value="Home">Home</option>
+            <option value="Earth">Earth</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Uranus">Uranus</option>
+            <option value="Neptune">Neptune</option>
+            <option value="Mercury">Mercury</option>
+            <option value="Venus">Venus</option>
+            <option value="Mars">Mars</option>
+            <option value="Pluto">Pluto</option>
+            <option value="Satellites">Satellites</option>
+            <option value="Astronomer">Astronomer</option>
+        </select>
+    </div>
+
+    <div id="content">
+        <img src="Astro2.jpg" alt="Astronaut" id="astronaut-image" style="width: 700px; float: right;">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="color: white; font-size: 40px;">"In the vast tapestry of the cosmos, each
+            twinkling star tells a story, and every dark expanse is a
+            canvas of endless possibilities waiting to be explored.".</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="planet-photos">
+        <div id="planet-photos"></div>
+        <img src="Sun.webp" alt="Planet 2" onclick="window.location.href='Sun.html'" title="Sun" style="width: 200px;" onmouseover="showPlanetName('Sun')">
+        <img src="Mercury.jpg" alt="Planet 2" onclick="window.location.href='Mercury.html'" title="Mercury" style="width: 200px;" onmouseover="showPlanetName('Mercury')">
+        <img src="Venus.jpg" alt="Planet 3" onclick="window.location.href='Venus.html'" title="Venus" style="width: 100px;" onmouseover="showPlanetName('Venus')">
+        <img src="Mars.jpg" alt="Planet 5" onclick="window.location.href='Mars.html'" title="Mars" style="width: 200px;" onmouseover="showPlanetName('Mars')">
+        <img src="Earth.jpg" alt="Planet 4" onclick="window.location.href='Earth.html'" title="Earth" style="width: 200px;" onmouseover="showPlanetName('Earth')">
+        <img src="Jupiter.jpg" alt="Planet 6" onclick="window.location.href='Jupiter.html'" title="Jupiter" style="width: 200px;" onmouseover="showPlanetName('Jupiter')">
+        <img src="Saturn.jpg" alt="Planet 7" onclick="window.location.href='Saturn.html'" title="Saturn" style="width: 300px;" onmouseover="showPlanetName('Saturn')">
+        <img src="Uranus.jpg" alt="Planet 8" onclick="window.location.href='Uranus.html'" title="Uranus" style="width: 200px;" onmouseover="showPlanetName('Uranus')">
+        <img src="Neptune.jpg" alt="Planet 9" onclick="window.location.href='Neptune.html'" title="Neptune" style="width: 200px;" onmouseover="showPlanetName('Neptune')">
+    </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="display: flex; justify-content: center;">
+    <h2 style="color: white; font-size: 40px;">Astronomy Photo of the Day</h2>
+</div>
+<img src="space.jpg" >
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<script>
+
+</script>
+<footer>
+    <p style="color: white;">&copy; 2024 Explore our space. All rights reserved.</p>
+</footer>
